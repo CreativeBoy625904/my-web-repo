@@ -1,0 +1,365 @@
+*{margin: 0 auto;
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+     text-decoration: none;
+    margin: 0 auto;
+    
+}
+
+/* =--------------------------header side start=----------------------- */
+
+.all-side-head{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+}
+
+/* -----------------------------------left side start=----------------------- */ */
+.left-head{
+    width: 30%;
+}
+.header-edit{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.left-text{
+    
+}
+
+.left-text h1{
+    font-size: 25px;
+    color: black;
+position: relative;
+transition: 5s all ease;
+}
+
+.left-text span{
+    color: cornflowerblue;
+    transition: .5s all ease;
+    cursor: pointer;
+
+}
+.left-text span:hover{
+    color: tomato;
+    transition: .5s all ease;
+  position: absolute;
+  bottom: -20px;
+}
+.left-text h1:hover{
+    color: blue;
+    transition: .5s all ease;
+
+}
+
+.left-img img{
+    height: 50px;
+    width: 40px;
+}
+/* ...................-------------------------middle part------- */
+
+
+
+
+.middle-side a{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.gap{
+margin-left: 15px;
+}
+
+/* -----------------------------------right part-------------------------------- */
+
+.right-head{
+transition: 5s all ease;
+
+}
+
+
+
+.right-text{
+    height:60px;
+    width: 150px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    background-color: tomato;
+    transition: 5s all ease;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+.right-text a{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.right-head :hover{
+    color:white;
+    background-color:blueviolet ;
+    transition: .5s all ease;
+
+}
+
+/* < !-- ---------------------------------------product detail start--------------- --> */
+
+.all-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* --------------------000000000000000000000 .left-detail start---------- */
+.left-detail{
+    width: 520px;
+}
+
+.detail-text h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.detail-text h1 span{
+   color: skyblue ;
+}
+.detail-text h1 strong{
+    color: tomato;
+    font-family: cursive;
+}
+.detail-text p{
+    font-family: sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+     
+}
+.btn button{
+    padding: 10px 15px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: 7s all ease;
+}
+.btn button:hover{
+    background-color: tomato;
+    color: white;
+    transition: .5s all ease;
+}
+
+/* =-------------------------right side0------------------- */
+
+.right-detail img{
+    width: 614px;
+        height: 546px;
+        
+}
+
+/* -------------------------------------------service details----------------------- --> */
+
+
+
+
+
+.text h1{
+    font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+        
+
+}
+
+/* -------------------------------logo part-------------------- */
+.all-text{
+    /* display: flex;
+    justify-content: space-between;
+     */
+ display: grid;
+ grid-template-columns: repeat(3,1fr) ;
+ gap: 20px;
+
+}
+
+
+.text-side{
+    display: flex;
+    justify-content: center;
+margin: 100px 0;
+}
+
+.one{
+    width: 330px;
+       
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     padding: 10px 17px;
+}
+
+.one img{
+    width: 42px;
+        height: 42px;
+        
+}
+.one h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 8px;
+
+}
+.one p{
+    font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        margin-top: 8px;
+}
+
+ /* < !-- -------------------------------------------leading chapters-------------------------------- --> */
+#leading{
+    margin-top: 160px;
+}
+.all-leading{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+
+
+   /* leftside-------------------- */
+.left-leading{
+   width: 50%;
+   padding-right: 40px;
+   
+}
+
+.left-leading h1{
+    font-family: sans-serif;
+        font-size: 32px;0..
+
+        font-weight: 300;
+      
+}
+.left-leading p{
+    font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+       
+} */ */
+
+/* second-left---------------------- */
+.text h1{ font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+   
+
+}
+.text strong{ color: rgb(68, 7, 7);
+    font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+}
+
+
+
+
+    /* .right-detail----------------------------- */
+
+
+    #sponser{
+        margin-top: 130px;
+        padding: 20px 0;
+        
+    }
+.all-pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 33, 34);
+
+}
+
+
+
+    .right-leading{
+      width: 50%;
+            
+    }
+
+    .right-leading img{
+
+    }
+
+/* sponsers----------------------------------------- */
+
+.pic img{
+    width: 170px;
+        height: 81px;
+}
+
+/* < !-- cusromer service --> */
+
+.left-detail{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin: 0 auto;
+  padding: 100px 0;
+text-align: center;}
+
+.left-detail h1{ 
+    font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+}
+.left-detail p{ width: 500px;
+    font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 8px;
+      
+}
+
+
+/* right side */
+
+
+.all-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    background-color: aquamarine;
+  
+    
+}
+
+
+.all-img img{
+    width: 140px;
+    height: 140px;
+}
